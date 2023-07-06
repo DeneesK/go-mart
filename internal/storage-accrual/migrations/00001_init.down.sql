@@ -1,0 +1,8 @@
+BEGIN TRANSACTION;
+
+DROP TABLE orders;
+DROP TABLE product;
+DROP TABLE reward;
+DROP TABLE order_product;
+
+COMMIT
